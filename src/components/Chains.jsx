@@ -30,7 +30,7 @@ const Chains = () => {
 
   return (
     <>
-      <h1>Top restaurant chains in Andhra</h1>
+      <h1>Best Food Delivery Restaurants in Ap</h1>
 
       {/* ✅ Spinner while loading */}
       {loading ? (

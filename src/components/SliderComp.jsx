@@ -64,7 +64,7 @@ useEffect(()=>{
   return(
   <>
   
-    <h1>Slider component</h1>
+    <h1>Top restaurant chains in Ap</h1>
     <div className="sliderBody">
     <Slider {...settings}>
         {
