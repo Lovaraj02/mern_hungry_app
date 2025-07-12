@@ -155,7 +155,7 @@ body {
 }
 @media (max-width:600px) {
   .sliderBody{
-    margin-left: 3.5%;
+    margin-left: 3%;
   }
   #h1{
     margin-left: 1%;
@@ -176,7 +176,8 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   width: 100%;
-  max-width: 91%;
+  max-width: 93%;
+  /* border: 1px solid red; */
 
 }
 
@@ -188,6 +189,8 @@ body {
   box-shadow: rgba(250, 250, 255, 0.2) 0px 7px 29px 0px;
   padding: 3px;
   transition: transform 0.3s ease-in-out;
+  /* border: 1px solid red; */
+
 
 }
 
@@ -258,8 +261,10 @@ body {
   }
 
   .chainBody {
-    gap: 15px;
-    padding-left: 4px;
+    gap: 12px;
+    /* padding-left: 4px; */
+    margin-left: 4%;
+
   }
 
   .firm_region_area {
@@ -269,7 +274,7 @@ body {
 
   h3 {
     font-size: 1.2rem;
-    font-weight: 800;
+    font-weight: 600;
     width: 100%;
     max-width: 200px;
     margin-top: 10px;
@@ -277,11 +282,12 @@ body {
   }
 
   #h1 {
-    font-size: 1.3rem;
-    font-weight: 800;
+    font-size: 1.2rem;
+    font-weight: 600;
     width: 100%;
-    max-width: 90%;
+    max-width: 95%;
     padding-left: 10px;
+
   }
 }
 
