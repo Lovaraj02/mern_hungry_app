@@ -30,7 +30,7 @@ const Chains = () => {
 
   return (
     <>
-      <h1>Best Food Delivery Restaurants in Ap</h1>
+      <h1 id="h1">Best Food Delivery Restaurants in Ap</h1>
 
       {/* ✅ Spinner while loading */}
       {loading ? (
