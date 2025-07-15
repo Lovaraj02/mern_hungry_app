@@ -241,13 +241,14 @@ body {
   margin-top: -14px;
 }
 
+
 @media (max-width:700px) {
   .firmBody img {
-    width: 160px;
+    width: 140px;
   }
 
   .firmBody {
-    width: 160px;
+    width: 140px;
   }
 
   #region_area {
@@ -261,9 +262,7 @@ body {
   }
 
   .chainBody {
-    gap: 12px;
-    /* padding-left: 4px; */
-    margin-left: 4%;
+    justify-content:center;
 
   }
 
@@ -288,6 +287,20 @@ body {
     max-width: 95%;
     padding-left: 10px;
 
+  }
+}
+
+@media (max-width:336px) {
+  .firmBody img {
+    width: 280px;
+    border: 1px solid red;
+  }
+
+  .firmBody {
+    width: 280px;
+  }
+  .offer{
+    width: 100%;
   }
 }
 
