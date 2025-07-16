@@ -321,7 +321,6 @@ body {
 @media (max-width:336px) {
   .firmBody img {
     width: 280px;
-    border: 1px solid red;
   }
 
   .firmBody {
