@@ -20,7 +20,7 @@ const Chains = () => {
     } catch (error) {
       console.log("error is", error);
     } finally {
-      setLoading(false); // ✅ hide loader after fetch
+      setLoading(false); // hide loader after fetch
     }
   };
 
