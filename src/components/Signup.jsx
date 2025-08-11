@@ -3,6 +3,8 @@ import { useState } from "react";
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { api } from './api';
+
 
 const Signup = ()=>{
 
@@ -20,7 +22,7 @@ const Signup = ()=>{
         if (!username || !email || !password) {
         alert("Please fill in all fields.");
         }
-           const result = await axios.post('http://localhost:8000/vendor/register',formData);
+           const result = await axios.post(`${api}/vendor/register`,formData);
            
            console.log("registered successfully",result.data) 
            alert("Registered successfully")

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
+import { api } from './api';
 const Login = () => {
   const navigate = useNavigate()
   const [email, setEmail] = useState("");
@@ -12,7 +13,7 @@ const Login = () => {
         if (!email || !password) {
         alert("Please fill in all fields.");
         }
-      const response = await fetch('http://localhost:8000/vendor/login',
+      const response = await fetch(`${api}/vendor/login`,
         {method:'POST',
           headers:{
             'Content-Type':'application/json'
